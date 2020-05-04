@@ -25,6 +25,7 @@ import java.util.List;
 public class OrderController {
 
     //    public static final String PAYMENT_URL="http://localhost:8001";
+    //使用服务名来发现服务必须开启在RestTemplate上使用@LoadBalanced 开启负载均衡
     public static final String PAYMENT_URL="http://CLOUD-PAYMENT-SERVICE";
     @Resource
     private RestTemplate restTemplate;
@@ -67,5 +68,14 @@ public class OrderController {
         URI uri = serviceInstance.getUri();
         return restTemplate.getForObject(uri+"/payment/lb",String.class);
     }
+
+    // ====================> zipkin+sleuth
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin()
+    {
+        String result = restTemplate.getForObject("http://localhost:8001"+"/payment/zipkin/", String.class);
+        return result;
+    }
+
 
 }
