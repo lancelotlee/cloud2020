@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-04 17:20
  **/
 @RestController

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-07 16:17
  **/
 @FeignClient(value = "nacos-payment-provider",fallback = PaymentFallbackService.class)

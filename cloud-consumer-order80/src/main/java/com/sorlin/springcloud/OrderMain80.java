@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-04-22 23:00
  **/
 @SpringBootApplication

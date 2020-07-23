@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-09 15:13
  **/
 public interface OrderDao

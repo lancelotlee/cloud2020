@@ -3,7 +3,7 @@ package com.sorlin.springcloud.alibaba.dao;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-10 10:34
  **/
 public interface StorageDao {

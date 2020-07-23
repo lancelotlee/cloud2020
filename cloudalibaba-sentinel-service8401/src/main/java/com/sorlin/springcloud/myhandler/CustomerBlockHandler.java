@@ -4,7 +4,7 @@ import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.sorlin.springcloud.entities.CommonResult;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-07 11:29
  **/
 public class CustomerBlockHandler {

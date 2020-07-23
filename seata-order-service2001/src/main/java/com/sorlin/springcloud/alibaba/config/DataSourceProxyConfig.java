@@ -15,7 +15,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import javax.sql.DataSource;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-09 16:30
  **/
 @Configuration

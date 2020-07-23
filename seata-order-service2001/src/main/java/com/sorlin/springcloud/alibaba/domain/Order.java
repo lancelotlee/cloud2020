@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-09 14:44
  **/
 @Data

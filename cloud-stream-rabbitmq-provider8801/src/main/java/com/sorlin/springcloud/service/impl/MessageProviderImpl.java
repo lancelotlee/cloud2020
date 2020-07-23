@@ -10,7 +10,7 @@ import org.springframework.messaging.MessageChannel;
 import javax.annotation.Resource;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-03 15:57
  **/
 @EnableBinding(Source.class)

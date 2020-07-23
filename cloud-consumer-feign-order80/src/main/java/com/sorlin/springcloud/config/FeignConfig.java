@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-04-26 15:40
  **/
 

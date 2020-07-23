@@ -3,7 +3,7 @@ package com.sorlin.springcloud.service;
 import org.springframework.stereotype.Service;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-04-29 14:43
  **/
 @Service

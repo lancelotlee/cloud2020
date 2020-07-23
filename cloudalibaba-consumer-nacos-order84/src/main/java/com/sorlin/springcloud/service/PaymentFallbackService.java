@@ -5,7 +5,7 @@ import com.sorlin.springcloud.entities.Payment;
 import org.springframework.stereotype.Component;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-05-07 16:20
  **/
 @Component

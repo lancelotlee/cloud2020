@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
- * @author 李松岭
+ * @author sorlin
  * @date 2020-04-26 09:56
  **/
 @SpringBootApplication
